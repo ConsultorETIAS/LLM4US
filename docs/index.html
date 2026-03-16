@@ -3,21 +3,108 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI4US — La Plaza de la IA para LATAM</title>
+<title>AI4US — La Plaza de la IA para Mexico y LATAM</title>
+<meta name="description" content="Guias de herramientas de IA para Mexico y LATAM: precios en pesos, acceso sin tarjeta internacional, alternativas asiaticas mas baratas.">
 <style>
-body{background:#0a0a0a;color:#f0ede6;font-family:sans-serif;
-display:flex;align-items:center;justify-content:center;
-min-height:100vh;margin:0;text-align:center;padding:2rem}
-h1{font-size:3rem;font-weight:900;letter-spacing:0.05em}
-span{background:#f5c842;color:#0a0a0a;padding:0 0.3em}
-p{color:#888;margin-top:1rem;font-size:1.1rem}
+:root{--am:#f5c842;--ng:#0a0a0a;--vd:#2dce6e;--rd:#e63030;--gr:#1a1a1a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--ng);color:#f0ede6;font-family:sans-serif;max-width:860px;margin:0 auto;padding:0 0 3rem}
+header{background:var(--am);color:var(--ng);padding:1.2rem 1.5rem;font-weight:900;font-size:1.6rem}
+header span{background:var(--ng);color:var(--am);padding:0 .3em}
+header div{font-size:.75rem;font-weight:400;margin-top:.3rem;opacity:.7}
+main{padding:1.5rem}
+h1{font-size:clamp(1.4rem,4vw,2rem);font-weight:900;line-height:1.2;margin-bottom:.5rem}
+h1 em{color:var(--am);font-style:normal}
+.sub{color:#888;font-size:.9rem;margin-bottom:2rem;line-height:1.6}
+h2{color:var(--am);margin:2rem 0 1rem;font-size:.85rem;text-transform:uppercase;letter-spacing:.1em;border-bottom:1px solid #1a1a1a;padding-bottom:.5rem}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+@media(max-width:500px){.grid{grid-template-columns:1fr}}
+.card{background:var(--gr);border:1px solid #2a2a2a;padding:1.2rem;text-decoration:none;color:inherit;display:block;transition:border-color .2s}
+.card:hover{border-color:var(--am)}
+.cat{font-size:.6rem;text-transform:uppercase;letter-spacing:.12em;color:#888;margin-bottom:.4rem}
+.nombre{font-size:1.1rem;font-weight:900;color:#f0ede6;margin-bottom:.4rem}
+.viral{font-size:.8rem;color:#ccc;line-height:1.4;margin-bottom:.8rem}
+.tags{display:flex;flex-wrap:wrap;gap:.3rem;align-items:center}
+.tag{display:inline-block;font-size:.6rem;padding:.2rem .5rem;border:1px solid;font-weight:700}
+.tag-cn{border-color:var(--rd);color:var(--rd)}
+.tag-us{border-color:#4a9eff;color:#4a9eff}
+.tag-in{border-color:#ff9f43;color:#ff9f43}
+.tag-free{border-color:var(--vd);color:var(--vd)}
+.arrow{color:var(--am);font-size:.9rem;margin-left:auto}
+.hero{background:#0f0f0f;border-left:4px solid var(--am);padding:1rem 1.2rem;margin-bottom:2rem}
+.hero strong{color:var(--am);display:block;margin-bottom:.4rem;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em}
+.hero p{font-size:.88rem;color:#ccc;line-height:1.6}
+.count{background:var(--am);color:var(--ng);font-size:.65rem;font-weight:900;padding:.15rem .45rem;margin-left:.5rem}
+.soon{font-size:.82rem;color:#444;padding:1rem 0;margin-top:.5rem;line-height:1.7}
+footer{border-top:2px solid #1a1a1a;padding:1.2rem 1.5rem;font-size:.75rem;color:#888;text-align:center}
+footer a{color:var(--am);text-decoration:none}
 </style>
 </head>
 <body>
-<div>
-  <h1>AI4<span>US</span></h1>
-  <p>La Plaza de la Inteligencia Artificial para LATAM</p>
-  <p style="color:#f5c842;margin-top:2rem">🏗 En construcción — Próximamente</p>
+<header>AI4<span>US</span><div>La Plaza de la Inteligencia Artificial para Mexico y LATAM</div></header>
+<main>
+<h1>IA sin barreras <em>para Mexico</em></h1>
+<p class="sub">Precios en pesos mexicanos · Sin tarjeta internacional · Alternativas asiaticas mas baratas</p>
+<div class="hero">
+<strong>Por que AI4US</strong>
+<p>El 90% de los tutoriales de IA asumen que tienes tarjeta gringa y cuenta americana. Aqui explicamos como acceder desde Mexico con lo que ya tienes: Gmail, debito y conexion a internet.</p>
 </div>
+<h2>Video IA <span class="count">4</span></h2>
+<div class="grid">
+<a class="card" href="/LLM4US/herramientas/kling-ai-mexico.html">
+<div class="cat">Generacion de video</div>
+<div class="nombre">Kling AI</div>
+<div class="viral">Foto a video cinematografico viral en TikTok — 66 creditos diarios gratis sin tarjeta</div>
+<div class="tags"><span class="tag tag-cn">China</span><span class="tag tag-free">Gratis</span><span class="arrow">→</span></div>
+</a>
+<a class="card" href="/LLM4US/herramientas/wan-mexico.html">
+<div class="cat">Generacion de video</div>
+<div class="nombre">Wan AI</div>
+<div class="viral">Open source de Alibaba — video desde imagen sin limite diario, sin registro obligatorio</div>
+<div class="tags"><span class="tag tag-cn">China</span><span class="tag tag-free">Gratis</span><span class="arrow">→</span></div>
+</a>
+<a class="card" href="/LLM4US/herramientas/invideo-mexico.html">
+<div class="cat">Video para YouTube</div>
+<div class="nombre">InVideo AI</div>
+<div class="viral">10 videos al mes gratis desde texto — espanol nativo, ideal para canales faceless</div>
+<div class="tags"><span class="tag tag-in">India</span><span class="tag tag-free">Gratis</span><span class="arrow">→</span></div>
+</a>
+<a class="card" href="/LLM4US/herramientas/pictory-mexico.html">
+<div class="cat">Video marketing</div>
+<div class="nombre">Pictory AI</div>
+<div class="viral">Convierte articulos y blogs en video automaticamente — para agencias y marcas</div>
+<div class="tags"><span class="tag tag-us">USA</span><span class="arrow">→</span></div>
+</a>
+</div>
+<h2>Chat · Musica · Voz · Slides <span class="count">4</span></h2>
+<div class="grid">
+<a class="card" href="/LLM4US/herramientas/deepseek-r1-mexico.html">
+<div class="cat">Chat con razonamiento</div>
+<div class="nombre">DeepSeek R1</div>
+<div class="viral">Iguala a ChatGPT o1 en matematicas y codigo — completamente gratis, sin limite</div>
+<div class="tags"><span class="tag tag-cn">China</span><span class="tag tag-free">Gratis</span><span class="arrow">→</span></div>
+</a>
+<a class="card" href="/LLM4US/herramientas/suno-mexico.html">
+<div class="cat">Musica generativa</div>
+<div class="nombre">Suno</div>
+<div class="viral">Canciones completas con letra y voz en 30 segundos — jingles sin musico ni estudio</div>
+<div class="tags"><span class="tag tag-us">USA</span><span class="tag tag-free">Gratis</span><span class="arrow">→</span></div>
+</a>
+<a class="card" href="/LLM4US/herramientas/elevenlabs-mexico.html">
+<div class="cat">Sintesis de voz</div>
+<div class="nombre">ElevenLabs</div>
+<div class="viral">Clona cualquier voz con 30 segundos de audio — 10 minutos gratis al mes</div>
+<div class="tags"><span class="tag tag-us">USA</span><span class="tag tag-free">Gratis</span><span class="arrow">→</span></div>
+</a>
+<a class="card" href="/LLM4US/herramientas/gamma-mexico.html">
+<div class="cat">Presentaciones</div>
+<div class="nombre">Gamma</div>
+<div class="viral">Pitch deck profesional desde texto en 60 segundos — sin PowerPoint, sin disenador</div>
+<div class="tags"><span class="tag tag-us">USA</span><span class="tag tag-free">Gratis</span><span class="arrow">→</span></div>
+</a>
+</div>
+<p class="soon">Proximamente: Midjourney · Runway · HeyGen · Perplexity · Cursor · Canva IA · Descript · FishAudio</p>
+</main>
+<footer><a href="/LLM4US/">AI4US — La Plaza de la IA para LATAM</a><br>Marzo 2026 · $20.30 MXN/USD · #AI4US #IAsinBarreras</footer>
 </body>
 </html>
